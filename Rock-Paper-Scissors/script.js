@@ -4,21 +4,21 @@ console.log('Start');
  *   -----------------------------------
  *   While-Schleife erstellen, welche Werte von 1-10 und ausgeben
  */
-/* var counter = 100
+var counter = 100
 while (counter < 11) {
     console.log(counter)
-    counter = counter + 1 */
-/* }
- */
+    counter= counter+1
+}
+
 /*   Aufgabe 2: Do...While-Schleife
  *   -----------------------------------
  *   Do-While Schleife erstellen, welche Werte von 1-10 und ausgeben
  */
-/* counter = 100
+counter=100
 do {
     console.log(counter)
     counter++
-} while (counter < 11) */
+} while (counter<11)
 /*
  *   Aufgabe 3: For-Schliefe
  *   -----------------------------------
@@ -31,9 +31,9 @@ do {
  *   243
  *   729
  */
-/* for (var zaehler = 3; zaehler <= 729; zaehler = zaehler * 3) {
-    console.log(zaehler) */
-/* } */
+for(var zaehler=3;zaehler<=729; zaehler= zaehler*3){
+    console.log(zaehler)
+}
 
 /*   Aufgabe 4: Durchschnittsberechnung
  *   -----------------------------------
@@ -45,19 +45,26 @@ do {
  *       2. Zahl zum Durchschnitt hinzufügen und Schleifenvariable um 1 erhöhen
  *       3. Durchschnitt berechnen
  */
-/* var zahlenarray = [3, 5, 7, 20, 60]
+var zahlenarray = [3,5,7,20,60] 
 var zaehler = 0
 var Summe = 0
-while (zaehler < zahlenarray.length) {
-    console.log(zahlenarray[zaehler])
-    Summe = Summe + zahlenarray[zaehler]
-    zaehler = zaehler + 1
+while (zaehler<zahlenarray.length){
+    console.log (zahlenarray[zaehler])
+    Summe= Summe+zahlenarray[zaehler]
+    zaehler= zaehler+1
 
-
+   
 }
 console.log(Summe)
-console.log(Summe / zahlenarray.length) */
+console.log(Summe/zahlenarray.length)
+
+
+
 /*
+
+
+
+
 
 function ArrayAvg(myArray){
     var i= 0,summ = 0, ArrayLen =myArray.length;
@@ -72,6 +79,11 @@ console.log(a)
 
 
 
+
+
+
+
+
 /*   Aufgabe 5: Summe aller positiven Zahlen
  *   -----------------------------------
  *   Du erhälst ein Zahlen Array und gibst die Summe aller positiven Zahlen zurück
@@ -83,33 +95,3 @@ console.log(a)
  *       2. Ist die Zahl grösser als 0?
  *           2.1 Zahl zum Resultat hinzufügen
  */
-/*
-zahlenarray = [3, 5, 7, 20, 60,-10]
-
-var zaehler = 10
-while(zaehler>0){
-    console.log(zahlenarray)
-
-
-}
-while(zaehler<0){
-    console.log()
-}*/
-zahlenarray = [3, 5, 7, 20, 60, -10]
-
-var zaehler = 0
-var Summe = 0
-while (zaehler < zahlenarray.length) {
-    var aktuellezahl = zahlenarray[zaehler]
-    console.log(aktuellezahl)
-    if (aktuellezahl > 0) {
-        Summe = Summe + aktuellezahl
-
-    }
-    zaehler = zaehler + 1
-
-}
-console.log(Summe)
-
-
-
